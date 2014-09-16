@@ -1,0 +1,8 @@
+第一课  github 使用入门
+
+
+ 第一步 https://hithub.com 上注册用户,下载 githubsetup.exe,并运行安装. 注意请打开邮箱认证.
+ 第二步 用注册用户连接上github,会提示你没有本地仓库(repositories),skip即可.
+ 第三步 点左上角的+号,创建本地仓库.起名称 git教程
+ 第四步 将文件放入你的家目录. 
+ 第五步 publish repository
