@@ -5,4 +5,4 @@
  第二步 用注册用户连接上github,会提示你没有本地仓库(repositories),skip即可.
  第三步 点左上角的+号,创建本地仓库.起名称 git教程
  第四步 将文件放入你的家目录. 
- 第五步 publish repository
+ 第五步 publish repository,注意这一步一定要填写summary和description,然后才能上传
