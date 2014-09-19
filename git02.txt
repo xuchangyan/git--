@@ -16,3 +16,4 @@ https://github.com/jboss-developer/jboss-eap-quickstarts/tree/6.4.x-develop/
 
 
 现在对克隆下来的文件进行修改,我这一段话就是用其它用户修改上传的.
+pull requests 帮助与其他人协同修改代码!要先生成pull requests才能使用.找到 页面右边<> 下面的图标,CREATE PULL REQUESTS成功后,在原始仓库所有人pull requests图标右侧会出现非0 数字,一个pull requests 就是1,
