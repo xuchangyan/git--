@@ -13,3 +13,6 @@ https://github.com/jboss-developer/jboss-eap-quickstarts/tree/6.4.x-develop/
 
 点右上角的fork,再访问你的github页面 https://github.com/xuchangyan  已经可以看到两个仓库了.
 打开 github桌面程序,点左上角+右面的下拉箭头可以看到新的仓库.你选择clone (克隆),指定位置后就把新仓库clone 下来了.
+
+
+现在对克隆下来的文件进行修改,我这一段话就是用其它用户修改上传的.
