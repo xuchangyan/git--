@@ -1,19 +1,24 @@
-�ڶ��� �ֿ�ֲ�(fork a repository)
+第二课 仓库分叉(fork a repository)
 
-�ֿ�ֲ������ڲ�Ӱ��ԭ��Ŀ����������������޸�.ͨ������·ֲ����������޸ı��˵���Ŀ,�����������˵���Ŀ��Ϊ����������㡣
-ǰһ�������Ҫ����bug�޸�:
->�ֿ�ֲ�
->�޸�bug
->����Ŀӵ�����ύһ��pull request
-�����Ŀ������ϲ����Ĺ���,���Ὣ����޸���������ԭʼ�ֿ⡣
-��һ��������ɷǳ���Ŀ�Դ��Ŀ���Թ���������롣����Ա�д�������ߵĳ���GitHub����һ��license �ļ�������ļ��������Ƿ�Ը��������˷������룡
+仓库分叉让你在不影响原项目的情况下自由体验修改.通常情况下分叉用于有意修改别人的项目,或者用其他人的项目作为你的主意的起点。
+前一种情况主要用于bug修复:
+>仓库分叉
+>修复bug
+>向项目拥有者提交一个pull request
+如果项目所有者喜欢你的工作,他会将你的修复拉到他的原始仓库。
+后一种情况是由非常多的开源项目可以供你分享代码。你可以编写质量更高的程序。GitHub就有一个license 文件，这个文件决定拟是否愿意跟其他人分享代码！
 
-���������������
+现在在浏览器输入
 https://github.com/jboss-developer/jboss-eap-quickstarts/tree/6.4.x-develop/
 
-�����Ͻǵ�fork,�ٷ������githubҳ�� https://github.com/xuchangyan  �Ѿ����Կ��������ֿ���.
-�� github�������,�����Ͻ�+�����������ͷ���Կ����µĲֿ�.��ѡ��clone (��¡),ָ��λ�ú�Ͱ��²ֿ�clone ������.
+点右上角的fork,再访问你的github页面 https://github.com/xuchangyan  已经可以看到两个仓库了.
+打开 github桌面程序,点左上角+右面的下拉箭头可以看到新的仓库.你选择clone (克隆),指定位置后就把新仓库clone 下来了.
 
 
-���ڶԿ�¡�������ļ������޸�,����һ�λ������������û��޸��ϴ���.
-pull requests ������������Эͬ�޸Ĵ���!Ҫ������pull requests����ʹ��.�ҵ� ҳ���ұ�<> �����ͼ��,CREATE PULL REQUESTS�ɹ���,��ԭʼ�ֿ�������pull requestsͼ���Ҳ����ַ�0 ����,һ��pull requests ����1,
+现在对克隆下来的文件进行修改,我这一段话就是用其它用户修改上传的.
+pull requests 帮助与其他人协同修改代码!要先生成pull requests才能使用.找到 页面右边<> 下面的图标,CREATE PULL REQUESTS成功后,在原始仓库所有人pull requests图标右侧会出现非0 数字,一个pull requests 就是1,
+
+
+我不能确认我不加contributor的情况下能否merge,我是在添加了 xuchangyansw 作为contributor 后点merge all requests完成的.
+至此多人合作已经达到.可以不再看其他课程了.如果还有些东西你想继续了解(比如命令行下操作),请继续关注.
+
