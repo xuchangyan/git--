@@ -1,0 +1,19 @@
+第四课 安装git
+
+是时候知道git的官方网址了:
+http://git-scm.com
+去下载源代码,然后安装
+
+$ tar -zxf git-2.1.1.tar.gz
+$ cd git-2.1.1
+$ make prefix=/usr/local all
+$ sudo make prefix=/usr/local/ install
+
+
+
+
+
+
+如果想在solaris下安装
+
+$ pkg install developer/versioning/git
